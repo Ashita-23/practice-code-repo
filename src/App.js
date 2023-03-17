@@ -1,6 +1,7 @@
 import "./App.css";
 // import FirstHook from "./reactHooks/useStateHook";
-import ToggetData from "./reactHooks/toggetData";
+// import ToggetData from "./reactHooks/toggetData";
+import MiniTodo from "./reactHooks/mini-todo";
 
 
 function App() {
@@ -8,7 +9,9 @@ function App() {
     <>
       {/* <FirstHook /> */}
 
-      <ToggetData/>
+      {/* <ToggetData/> */}
+
+      <MiniTodo/>
     </>
   );
 }
