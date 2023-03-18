@@ -26,6 +26,7 @@
   align-items:center ;
   justify-content: space-around ;
   background-color: purple;
+  color: white;
 }
 
 .todo-0box{
@@ -65,4 +66,17 @@
   color: red;
 }
 
+/* cleanfun style */
 
+.clean-box{
+  font-size: 2rem ;
+  color: white;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items:center ;
+  justify-content: center ;
+}

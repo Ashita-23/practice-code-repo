@@ -1,7 +1,9 @@
 import "./App.css";
 // import FirstHook from "./reactHooks/useStateHook";
 // import ToggetData from "./reactHooks/toggetData";
-import MiniTodo from "./reactHooks/mini-todo";
+// import MiniTodo from "./reactHooks/mini-todo";
+// import SeeEffects from "./reactHooks/UseEffectPro";
+import CleanupFun from "./reactHooks/CleanupFun";
 
 
 function App() {
@@ -11,7 +13,10 @@ function App() {
 
       {/* <ToggetData/> */}
 
-      <MiniTodo/>
+      {/* <MiniTodo/> */}
+
+      {/* <SeeEffects/> */}
+      <CleanupFun/>
     </>
   );
 }
