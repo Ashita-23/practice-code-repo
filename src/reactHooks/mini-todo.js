@@ -31,7 +31,7 @@ const MiniTodo = () => {
               <>
                 <div className="todo-0box" key={val.id}>
                   <h1 className="todo-boxs">
-                    name : {val.name} / age : {val.age}{" "}
+                    name : {val.name} / age : {val.age}
                   </h1>
                   <button className="clear_btn" onClick={()=>ClearList(val.id)}>
                     clear
